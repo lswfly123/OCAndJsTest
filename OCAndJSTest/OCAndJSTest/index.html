@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=no" />
+	<title>url</title>
+	</head>
+	
+	<body>
+		<button id="btn">点击处理url</button>
+	</body>
+	<script>
+		window.onload = function(){
+			document.getElementById("btn").onclick = function(){
+				share('$action.capture$');
+			};		
+		};
+	</script>
+</html>
